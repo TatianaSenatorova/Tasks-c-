@@ -6,6 +6,6 @@ void Multiple(int number)
     Console.Write($"{number} is multiple to 7 and 23");
     else Console.Write($"{number} isn't multiple 7 and 23");
 }
-Console.WriteLine("Enter a number: ");
+Console.Write($"Enter a number: ");
 int number = int.Parse(Console.ReadLine());
 Multiple(number);
