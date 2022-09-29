@@ -6,9 +6,9 @@
 
 
 x = float(input('Enter any double number '))
-#while(x % 10 != 0):  
-    #x = x * 10 #получаем целое число c лишним нулем в десяткaх
-# x /= 10
+while(x % 10.0 != 0):  
+    x = x * 10.0
+x /= 10.
 print(x)
 #sum = 0.0
 #while (x % 10 != 0):

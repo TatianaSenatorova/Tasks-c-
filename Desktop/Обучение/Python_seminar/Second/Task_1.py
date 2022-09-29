@@ -5,7 +5,7 @@
 
 def RowOfNumbers(N):
         a = []
-        for i in range(0, N):
+        for i in range(1, N+1):
             a.append((-3) ** i)
         return a        
  
