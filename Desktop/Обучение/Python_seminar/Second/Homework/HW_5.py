@@ -15,4 +15,4 @@ def ChangePosition(a):
     
 a = FillList(N)
 print(a)
-print(ChangePosition(a))
+print('перемешанный список', ChangePosition(a))

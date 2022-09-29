@@ -3,15 +3,12 @@
 #- 6782 -> 23
 #- 0,56 -> 11
 
+x = str(input('Enter any double number '))
+chars = '.,'
+res = x.translate(str.maketrans('', '', chars))
+sum = 0
+for i in range(0, len(res)):
+       a = int(res[i])
+       sum += a
+print(sum)
 
-
-x = float(input('Enter any double number '))
-while(x % 10.0 != 0):  
-    x = x * 10.0
-x /= 10.
-print(x)
-#sum = 0.0
-#while (x % 10 != 0):
-#    sum += round(x % 10)
-#    x /= 10
-#print(sum)
